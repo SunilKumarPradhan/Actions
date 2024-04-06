@@ -1,0 +1,16 @@
+[theme]
+base="light"
+primaryColor="#F63366"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#262730"
+font="sans serif"
+
+[client]
+# Controls whether uncaught st-app exceptions are displayed in the browser. By default, this is set to True and Streamlit displays st-app exceptions and associated tracebacks in the browser.
+# If set to False, an exception will result in a generic message being shown in the browser, and exceptions and tracebacks will be printed to the console only.
+# Default: true
+showErrorDetails = false
+
+[server]
+maxUploadSize = 200
